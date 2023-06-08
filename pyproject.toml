@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "py-sample"
+version = "0.1.0"
+description = ""
+authors = ["Conan Hsieh <conanstar@gmail.com>"]
+readme = "README.md"
+packages = [{include = "py_sample"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
